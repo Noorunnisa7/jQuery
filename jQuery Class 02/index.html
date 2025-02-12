@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mybox{
+            background-color: blueviolet;
+            color: aliceblue;
+            width: 30%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .popup_content{
+            background-color: bisque;
+            border:10px double #000;
+            width: 30%;
+            padding: 30px 20px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%)
+        }
+        .popup::before{
+            background-color: #000;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            content: "";
+            opacity: 50%;
+        }
+        .popup{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+
+<button class="ClickBtn">Click here</button>
+
+<h1 class="heading">Hello Javascript</h1>
+
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+<div class="mybox">
+    <h1>Hello World</h1>
+</div>
+
+
+
+<button class="read">Read More</button>
+<p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. At error accusamus reprehenderit iusto dignissimos dicta praesentium odio vel similique, illo laboriosam dolorum eaque temporibus quia impedit aut vitae rem animi.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque delectus reprehenderit itaque possimus, numquam dolore laborum quisquam, ullam quam animi pariatur fugiat explicabo quae temporibus, ex voluptas veritatis recusandae asperiores?
+</p>
+
+
+
+
+
+<button class="viewbtn">View More</button>
+<div class="popup">
+    <div class="popup_content">
+        <button class="close_btn">X</button>
+        <h1>JQUERY Popup</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, nostrum quisquam dignissimos tempora saepe dolore sint unde cumque aliquid fuga quam autem, numquam nulla facere delectus, repudiandae consequuntur voluptatem? Consequatur.</p>
+    </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
