@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.slideContainer{
+    padding: 20px;
+    text-align: center;
+}
+.readBtn{
+    font-size: 20px;
+  
+}
+.readContent{
+    display: none;
+    padding-top: 20px;
+}
+
+
+body.blackColor{
+    background-color: black;
+    color: #fff;
+}

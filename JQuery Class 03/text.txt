@@ -1,0 +1,24 @@
+SlideUp      hide
+SlideDown   show
+SlideToggle  both
+
+
+
+slideToggle(parameter)
+slideToggle(seconds)
+
+
+1s =  1000
+2s = 2000
+1m = 100000
+
+1
+
+4s = 4000
+
+
+
+
+addClass     
+removeClass
+ToggleClass
